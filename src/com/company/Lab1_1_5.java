@@ -1,7 +1,7 @@
 package com.company;
 import java.util.Scanner;
 
-public class Main {
+public class Lab1_1_5 {
     public static void main(String []args){
         Scanner scan = new Scanner(System.in);
         System.out.println("Please enter the number of integers:");
