@@ -4,16 +4,16 @@
 package com.company;
 import java.util.*;
 
-public class Computer {
+public class Computer_4_8 {
     public static void main(String[] args) {
-        Computer com = new Computer();
+        Computer_4_8 com = new Computer_4_8();
         com.info.print();
 
     }
     public static Scanner scan = new Scanner(System.in);
     public String computer;
     public info info;
-    public Computer(){
+    public Computer_4_8(){
         System.out.println("Enter the computer name:");
         setCom(scan.nextLine());
         info = new info();
